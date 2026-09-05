@@ -27,9 +27,9 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
   };
 
   const socialButtons = [
-    { icon: MessageCircle, label: 'Discord', url: player.discord },
-    { icon: Youtube,       label: 'YouTube', url: player.youtube },
-    { icon: Music2,        label: 'TikTok',  url: player.tiktok  },
+    { icon: MessageCircle, label: 'Discord', url: player.discord ?? undefined },
+    { icon: Youtube,       label: 'YouTube', url: player.youtube ?? undefined },
+    { icon: Music2,        label: 'TikTok',  url: player.tiktok ?? undefined  },
   ];
 
   const initials = player.name
@@ -55,8 +55,6 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
 
     if (image.startsWith('http')) return image;
 
-    // New uploads live on the backend now (uploads/players/...),
-    // legacy paths (/players/...) still live in the frontend's public/ folder.
     if (image.startsWith('/uploads/')) {
       return `${process.env.NEXT_PUBLIC_API_URL}${image}`;
     }
@@ -74,7 +72,8 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
     mediaSrc.toLowerCase().endsWith('.mov');
 
   const activeSocialButtons = socialButtons.filter(
-    ({ url }) => typeof url === 'string' && url.trim() !== ''
+    (btn): btn is { icon: typeof MessageCircle; label: string; url: string } =>
+      typeof btn.url === 'string' && btn.url.trim() !== ''
   );
 
   return (
@@ -284,7 +283,7 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
           {activeSocialButtons.map(({ icon: Icon, label, url }) => (
             <motion.a
               key={label}
-              href={url ?? undefined}
+              href={url}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.10, y: -2 }}

@@ -28,7 +28,7 @@ export interface Player {
   country: string;
   image: string | null;
   fruit?: PlayerFruit | null;
-  discord?: string | null;
-  youtube?: string | null;
-  tiktok?: string | null;
+  discord?: string;
+  youtube?: string;
+  tiktok?: string;
 }
