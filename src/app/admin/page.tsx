@@ -1318,7 +1318,7 @@ function PlayerModal({
             <select
               value={tier}
               onChange={(event) =>
-                setTier(event.target.value)
+                setTier(event.target.value as typeof tier)
               }
               className="admin-input"
             >
@@ -1348,7 +1348,7 @@ function PlayerModal({
             <select
               value={fruit}
               onChange={(event) =>
-                setFruit(event.target.value)
+                setFruit(event.target.value as typeof fruit)
               }
               className="admin-input"
             >
