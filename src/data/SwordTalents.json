@@ -1,0 +1,194 @@
+{
+  "swords": [
+    {
+      "name": "Katana",
+      "holder": "Example",
+      "icon": "/swords/Katana.webp"
+    },
+    {
+      "name": "Cutlass",
+      "holder": "Example",
+      "icon": "/swords/Cutlass.webp"
+    },
+    {
+      "name": "Dual Katana",
+      "holder": "Example",
+      "icon": "/swords/DualKatana.webp"
+    },
+    {
+      "name": "Triple Katana",
+      "holder": "Example",
+      "icon": "/swords/TripleKatana.webp"
+    },
+    {
+      "name": "Twin Hooks",
+      "holder": "Kuro",
+      "icon": "/swords/TwinHooks.webp"
+    },
+    {
+      "name": "Dragon Trident",
+      "holder": "Example",
+      "icon": "/swords/DragonTrident.webp"
+    },
+    {
+      "name": "Dual Headed Blade",
+      "holder": "Example",
+      "icon": "/swords/DualHeadedBlade.webp"
+    },
+    {
+      "name": "Flail",
+      "holder": "Ather",
+      "icon": "/swords/Flail.webp"
+    },
+    {
+      "name": "Gravity Blade",
+      "holder": "Example",
+      "icon": "/swords/GravityBlade.webp"
+    },
+     {
+      "name": "Long Sword",
+      "holder": "Example",
+      "icon": "/swords/Longsword.webp"
+    },
+    {
+      "name": "Pipe",
+      "holder": "Example",
+      "icon": "/swords/Pipe.webp"
+    },
+    {
+      "name": "Soul Cane",
+      "holder": "Example",
+      "icon": "/swords/SoulCane.webp"
+    },
+    {
+      "name": "Trident",
+      "holder": "Example",
+      "icon": "/swords/Trident.webp"
+    },
+    {
+      "name": "Wardens Sword",
+      "holder": "Example",
+      "icon": "/swords/WardensSword.webp"
+    },
+    {
+      "name": "Bisento",
+      "holder": "Example",
+      "icon": "/swords/Bisento.webp"
+    },
+    {
+      "name": "Buddy Sword",
+      "holder": "Example",
+      "icon": "/swords/BuddySword.webp"
+    },
+    {
+      "name": "Canvander",
+      "holder": "Example",
+      "icon": "/swords/Canvander.webp"
+    },
+    {
+      "name": "Dark Dagger",
+      "holder": "Example",
+      "icon": "/swords/DarkDagger.webp"
+    },
+    {
+      "name": "Dragon Heart",
+      "holder": "Mamz",
+      "icon": "/swords/Dragonheart.webp"
+    },
+    {
+      "name": "Fox Lamp",
+      "holder": "Example",
+      "icon": "/swords/FoxLamp.webp"
+    },
+    {
+      "name": "Koko",
+      "holder": "Example",
+      "icon": "/swords/Koko.webp"
+    },
+    {
+      "name": "Midnight Blade",
+      "holder": "Example",
+      "icon": "/swords/MidnightBlade.webp"
+    },
+    {
+      "name": "Oroshi",
+      "holder": "Example",
+      "icon": "/swords/Oroshi.webp"
+    },
+    {
+      "name": "Pole V1",
+      "holder": "Example",
+      "icon": "/swords/Pole.webp"
+    },
+    {
+      "name": "Pole V2",
+      "holder": "Example",
+      "icon": "/swords/PoleV2.webp"
+    },
+    {
+      "name": "Rengoku",
+      "holder": "Example",
+      "icon": "/swords/Rengoku.webp"
+    },
+    {
+      "name": "Saber",
+      "holder": "Example",
+      "icon": "/swords/Saber.webp"
+    },
+    {
+      "name": "Saishi",
+      "holder": "Example",
+      "icon": "/swords/Saishi.webp"
+    },
+    {
+      "name": "Shark Anchor",
+      "holder": "Ezra",
+      "icon": "/swords/SharkAnchor.webp"
+    },
+    {
+      "name": "Shizu",
+      "holder": "Example",
+      "icon": "/swords/Shizu.webp"
+    },
+    {
+      "name": "Spikey Trident",
+      "holder": "Example",
+      "icon": "/swords/SpikeyTrident.webp"
+    },
+    {
+      "name": "Tushita",
+      "holder": "ZenBash",
+      "icon": "/swords/Tushita.webp"
+    },
+    {
+      "name": "Yama",
+      "holder": "Ezra",
+      "icon": "/swords/Yama.webp"
+    },
+    {
+      "name": "Cursed Dual Katana",
+      "holder": "Ezra",
+      "icon": "/swords/CursedDualKatana.webp"
+    },
+    {
+      "name": "Dark Blade",
+      "holder": "Example",
+      "icon": "/swords/DarkBlade.webp"
+    },
+    {
+      "name": "Hollow Scythe",
+      "holder": "Fathan",
+      "icon": "/swords/HallowScythe.webp"
+    },
+    {
+      "name": "True Triple Katana",
+      "holder": "Zel",
+      "icon": "/swords/TrueTripleKatana.webp"
+    },
+    {
+      "name": "Triple Dark Blade",
+      "holder": "Example",
+      "icon": "/swords/TripleDarkBlade.webp"
+    }
+  ]
+}

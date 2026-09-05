@@ -1,0 +1,210 @@
+{
+  "fruits": [
+    {
+      "name": "Dragon",
+      "holder": "Example",
+      "icon": "/fruits/Dragon.png"
+    },
+    {
+      "name": "Control",
+      "holder": "Ezra",
+      "icon": "/fruits/Control.png"
+    },
+    {
+      "name": "Kitsune",
+      "holder": "wv1nz",
+      "icon": "/fruits/Kitsune.png"
+    },
+    {
+      "name": "Yeti",
+      "holder": "Example",
+      "icon": "/fruits/Yeti.png"
+    },
+    {
+      "name": "Tiger",
+      "holder": "Example",
+      "icon": "/fruits/Tiger.png"
+    },
+    {
+      "name": "Spirit",
+      "holder": "Envy",
+      "icon": "/fruits/Spirit.png"
+    },
+    {
+      "name": "Gas",
+      "holder": "Demon",
+      "icon": "/fruits/Gas.png"
+    },
+    {
+      "name": "Venom",
+      "holder": "Example",
+      "icon": "/fruits/Venom.png"
+    },
+    {
+      "name": "Shadow",
+      "holder": "Ezra",
+      "icon": "/fruits/Shadow.png"
+    },
+    {
+      "name": "Dough",
+      "holder": "Arun",
+      "icon": "/fruits/Dough.png"
+    },
+    {
+      "name": "T-Rex",
+      "holder": "Example",
+      "icon": "/fruits/Tirek.png"
+    },
+    {
+      "name": "Mammoth",
+      "holder": "Example",
+      "icon": "/fruits/Mahmud.png"
+    },
+    {
+      "name": "Gravity",
+      "holder": "Example",
+      "icon": "/fruits/Gravity.png"
+    },
+    {
+      "name": "Blizard",
+      "holder": "Ezra",
+      "icon": "/fruits/Blizzard.png"
+    },
+    {
+      "name": "Pain",
+      "holder": "znhkll",
+      "icon": "/fruits/Pain.png"
+    },
+    {
+      "name": "Lightning",
+      "holder": "znhkll",
+      "icon": "/fruits/Lightning.png"
+    },
+    {
+      "name": "Portal",
+      "holder": "Zel",
+      "icon": "/fruits/Portal.png"
+    },
+    {
+      "name": "Phoenix",
+      "holder": "Example",
+      "icon": "/fruits/Phoenix.png"
+    },
+    {
+      "name": "Sound",
+      "holder": "Ather",
+      "icon": "/fruits/Sound.png"
+    },
+    {
+      "name": "Spider",
+      "holder": "Example",
+      "icon": "/fruits/Spider.png"
+    },
+    { 
+      "name": "Creation",
+      "holder": "Example",
+      "icon": "/fruits/Creation.png"
+    },
+    {
+      "name": "Love",
+      "holder": "Fathan",
+      "icon": "/fruits/Love.png"
+    },
+    {
+      "name": "Buddha",
+      "holder": "Example",
+      "icon": "/fruits/Buddha.png"
+    },
+    {
+      "name": "Quake",
+      "holder": "Fariz",
+      "icon": "/fruits/Quake.png"
+    },
+    {
+      "name": "Magma",
+      "holder": "Example",
+      "icon": "/fruits/Magma.png"
+    },
+    {
+      "name": "Ghost",
+      "holder": "NoxTrinity",
+      "icon": "/fruits/Ghost.png"
+    },
+    {
+      "name": "Rubber",
+      "holder": "Example",
+      "icon": "/fruits/Rubber.png"
+    },
+    {
+      "name": "Light",
+      "holder": "Example",
+      "icon": "/fruits/Light.png"
+    },
+    {
+      "name": "Diamond",
+      "holder": "Peb1z",
+      "icon": "/fruits/Diamond.png"
+    },
+    {
+      "name": "Eagle",
+      "holder": "Example",
+      "icon": "/fruits/Eagle.png"
+    },
+    {
+      "name": "Dark",
+      "holder": "Example",
+      "icon": "/fruits/Dark.png"
+    },
+    {
+      "name": "Sand",
+      "holder": "Zel",
+      "icon": "/fruits/Sand.png"
+    },
+    {
+      "name": "Ice",
+      "holder": "Example",
+      "icon": "/fruits/Ice.png"
+    },
+    {
+      "name": "Flame",
+      "holder": "Envy",
+      "icon": "/fruits/Flame.png"
+    },
+    {
+      "name": "Spike",
+      "holder": "Example",
+      "icon": "/fruits/Spike.png"
+    },
+    {
+      "name": "Smoke",
+      "holder": "Example",
+      "icon": "/fruits/Smoke.png"
+    },
+   {
+      "name": "Bomb",
+      "holder": "Example",
+      "icon": "/fruits/Bomb.png"
+    },
+    {
+      "name": "Spring",
+      "holder": "Example",
+      "icon": "/fruits/Spring.png"
+    },
+    {
+      "name": "Blade",
+      "holder": "Example",
+      "icon": "/fruits/Blade.png"
+    },
+        {
+      "name": "Spin",
+      "holder": "Example",
+      "icon": "/fruits/Spin.png"
+    },
+    {
+      "name": "Rocket",
+      "holder": "Example",
+      "icon": "/fruits/Rocket.png"
+    }
+    
+  ]
+}
