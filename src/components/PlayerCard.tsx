@@ -27,9 +27,9 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
   };
 
   const socialButtons = [
-    { icon: MessageCircle, label: 'Discord', url: player.discord ?? undefined },
-    { icon: Youtube,       label: 'YouTube', url: player.youtube ?? undefined },
-    { icon: Music2,        label: 'TikTok',  url: player.tiktok ?? undefined  },
+    { icon: MessageCircle, label: 'Discord', url: player.discord },
+    { icon: Youtube,       label: 'YouTube', url: player.youtube },
+    { icon: Music2,        label: 'TikTok',  url: player.tiktok  },
   ];
 
   const initials = player.name
@@ -71,6 +71,7 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
     mediaSrc.toLowerCase().endsWith('.webm') ||
     mediaSrc.toLowerCase().endsWith('.mov');
 
+  // Filter hanya button yang memiliki URL string valid (membuang null/undefined/string kosong)
   const activeSocialButtons = socialButtons.filter(
     (btn): btn is { icon: typeof MessageCircle; label: string; url: string } =>
       typeof btn.url === 'string' && btn.url.trim() !== ''
@@ -121,7 +122,6 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
         />
 
         <div className="relative z-10 flex flex-1 items-start gap-5 px-5 pt-5 pb-4 overflow-hidden">
-
           <div className="flex-shrink-0">
             <motion.div
               whileHover={{ scale: 1.05 }}
@@ -283,7 +283,7 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
           {activeSocialButtons.map(({ icon: Icon, label, url }) => (
             <motion.a
               key={label}
-              href={url}
+              href={url ?? '#'}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.10, y: -2 }}
