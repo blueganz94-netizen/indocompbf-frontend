@@ -28,8 +28,8 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
 
   const socialButtons = [
     { icon: MessageCircle, label: 'Discord', url: player.discord },
-    { icon: Youtube,        label: 'YouTube', url: player.youtube },
-    { icon: Music2,         label: 'TikTok',  url: player.tiktok  },
+    { icon: Youtube,       label: 'YouTube', url: player.youtube },
+    { icon: Music2,        label: 'TikTok',  url: player.tiktok  },
   ];
 
   const initials = player.name
@@ -284,7 +284,7 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
           {activeSocialButtons.map(({ icon: Icon, label, url }) => (
             <motion.a
               key={label}
-              href={url}
+              href={url ?? undefined}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.10, y: -2 }}
