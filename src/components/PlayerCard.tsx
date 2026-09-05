@@ -50,7 +50,7 @@ export default function PlayerCard({ player, index, allTalents = [] }: PlayerCar
       talent.holder.toLowerCase() === player.name.toLowerCase()
   );
 
-  const resolveMediaSrc = (image: string | undefined) => {
+  const resolveMediaSrc = (image: string | null | undefined) => {
     if (!image) return '/players/placeholder.png';
 
     if (image.startsWith('http')) return image;
